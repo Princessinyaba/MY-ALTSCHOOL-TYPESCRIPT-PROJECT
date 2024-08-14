@@ -1,0 +1,57 @@
+/* styles/login.css */
+
+.login-container {
+    background-color: #002366; /* Dark blue background */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* White text */
+  }
+  
+  .card-container {
+    width: 100%; /* Set the card width to 50% of the screen */
+    background-color: #ffffff; /* White background for the card */
+    color: #000000; /* Black text inside the card */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-container h1 {
+    color: #002366; /* Dark blue color for the title */
+  }
+  
+  .form-control {
+    margin-top: 10px;
+    width: 100%; /* Full width for input fields */
+  }
+  
+  .btn-primary {
+    background-color: #002366; /* Dark blue button color */
+    border-color: #002366;
+  }
+  
+  .btn-outline-primary {
+    color: #002366; /* Dark blue text color */
+    border-color: #002366;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #002366; /* Dark blue background on hover */
+    color: #ffffff; /* White text on hover */
+  }
+  
+  .register-link {
+    color: #002366; /* Dark blue color for the register link */
+    text-decoration: none;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
+  .me-2 {
+    margin-right: 0.5rem; /* Margin to the right for spacing */
+  }
+  

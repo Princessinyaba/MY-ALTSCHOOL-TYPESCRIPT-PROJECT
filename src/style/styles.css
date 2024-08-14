@@ -1,0 +1,110 @@
+/* styles.css */
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f0f2f5; /* Light background color */
+    color: #333; /* Darker text color for better readability */
+  }
+  
+  nav {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li div {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  nav ul li a:hover {
+    background-color: #777; /* Lighter color on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+  }
+ 
+  .api-pricing{
+    background-color: #002366;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  .api-pricing h1{
+    text-align: center;
+  }
+  .api-pricing h2{
+    text-align: center;
+  }
+  .api-pricing p:first-child{
+    text-align: center;
+  }
+  .plan {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 10px; /* More rounded corners for plans */
+    width: 250px; /* Slightly wider plans */
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow for better depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .plan:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .plan h3 {
+    margin-top: 0;
+    color: #004080; /* Dark blue color for plan titles */
+    text-align: center;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    color: #004080; /* Dark blue color for price */
+    text-align: center;
+  }
+  
+  .plan ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #333;
+  }
+  
+  .plan ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .about-us{
+    background-color: #002366;
+    color: white;
+    padding: 10px 15px;
+  }
+  .about-us h1{
+    text-align: center;
+  }
