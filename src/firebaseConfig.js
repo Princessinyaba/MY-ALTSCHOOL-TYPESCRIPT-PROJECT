@@ -4,13 +4,13 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "api Key",
-  authDomain: "auth DOMAIN ID",
-  projectId: "project ID",
-  storageBucket: "storage Bucket",
-  messagingSenderId: "message sender ID",
-  appId: "api ID",
-  measurementId: "measurement ID"
+  apiKey: "AIzaSyArEQ389jqGjVS6vye3R6rC3etQcupSFWc",
+  authDomain: "scissor-787b7.firebaseapp.com",
+  projectId: "scissor-787b7",
+  storageBucket: "scissor-787b7.appspot.com",
+  messagingSenderId: "690451838032",
+  appId: "1:690451838032:web:7d3e7404322e04cb734d55",
+  measurementId: "G-HZ36YBN7DG"
 };
 
 const app = initializeApp(firebaseConfig);
