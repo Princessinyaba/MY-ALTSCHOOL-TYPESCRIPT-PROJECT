@@ -2,6 +2,8 @@ import { useRouter } from 'next/router';
 import { FaGoogle } from 'react-icons/fa'; // Import the Font Awesome Google icon
 import Link from 'next/link'; // Import Link from next
 import '../style/styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS bundle (with Popper.js)
 
 const Navbar = () => {
     return (
