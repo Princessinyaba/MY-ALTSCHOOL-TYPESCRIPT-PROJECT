@@ -43,11 +43,7 @@ const Navbar = () => {
                 <div className="nav-link">Register</div>
               </Link>
             </li>
-            <li className="nav-item">
-              <Link href="/shorten" passHref>
-                <div className="nav-link">ShortCodeRedirect</div>
-              </Link>
-            </li>
+            
           </ul>
         </div>
       </div>
